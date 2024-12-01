@@ -1,14 +1,9 @@
 ---
-  el:
-    hosts:
-      centos7:
-        ansible_connection: docker
-  deb:
-    hosts:
-      ubuntu:
-        ansible_connection: docker
-        ansible_python_interpreter: /usr/bin/python3
-  local:
-    hosts:
-      localhost:
-        ansible_connection: local
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_connection: docker
+vector:
+  hosts:
+    vector-01:
+      ansible_connection: docker
