@@ -1,35 +1,14 @@
-# Домашнее задание к занятию "Работа с Playbook" - Баграш Фёдор
+# Домашнее задание к занятию "Использование Ansible" - Баграш Фёдор
 
-Запуск `ansible-lint site.yml`
+inventory создаётся при запуске terraform
 
-![Image alt](img/Image001.png)
+Запуск с флагом `--check`
+![Image alt](img/tsk1.png)
+![Image alt](img/tsk2.png)
 
-Ошибки:
-- Не задано имя task
-- Не заданы права на файл
-- Для встроенного модуля использовано короткое имя вместо полного имени коллекции
-- Отсутствует пустая строка в конце файла
+Запуск с флагом `--diff`
+![Image alt](img/tsk3.png)
+![Image alt](img/tsk4.png)
 
-Предупреждения:
-- Неподдерживаемый параметр
-- Отсутствие пробела в шаблоне
-
-Исправление и повторный запуск `ansible-lint site.yml`
-
-![Image alt](img/Image002.png)
-
-6. При запуске с флагом `--check` возникает ошибка в таске установки clickhouse, поскольку `--check` выполняет только проверку, но не сами действия. Соответственно, он не скачивает дистрибутив в предыдущем таске
-
-![Image alt](img/Image003.png)
-
-7. Первый запуск на `prod.yml` окружении с флагом `--diff`
-
-![Image alt](img/Image004.png)
-
-8. Повторный запуск playbook с флагом `--diff` — изменений нет, playbook идемпотентен
-
-![Image alt](img/Image005.png)
-
-9. Ссылка на описаниее Playbook
-
+Ссылка на описаниее Playbook
 https://github.com/tud777777/git_homework/blob/main/playbook/Readme.md
