@@ -25,7 +25,7 @@ resource "yandex_vpc_subnet" "subnet-1" {
   zone = var.zone-a
 }
 
-data "yandex_compute_image" "centos-7-oslogin" {
+data "yandex_compute_image" "centos-7" {
   family = "centos-7"
 }
 
@@ -35,7 +35,7 @@ resource "yandex_compute_instance" "lighthouse" {
   zone = var.zone-a
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_image.centos-7-oslogin.image_id
+      image_id = data.yandex_compute_image.centos-7.image_id
       size = "10"
       type = "network-hdd"
     }
@@ -64,7 +64,7 @@ resource "yandex_compute_instance" "vector" {
   zone = var.zone-a
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_image.centos-7-oslogin.image_id
+      image_id = data.yandex_compute_image.centos-7.image_id
       size = "10"
       type = "network-hdd"
     }
@@ -93,7 +93,7 @@ resource "yandex_compute_instance" "clickhouse" {
   zone = var.zone-a
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_image.centos-7-oslogin.image_id
+      image_id = data.yandex_compute_image.centos-7.image_id
       size = "10"
       type = "network-hdd"
     }
