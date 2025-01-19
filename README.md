@@ -7,4 +7,4 @@ CPU 100% - rate(node_cpu_seconds_total{cpu="0", mode="idle"}[1m]) * 100\
 Free Storage - node_filesystem_avail_bytes{mountpoint="/etc/hostname"}\
 Free RAM - node_memory_MemFree_bytes
 3. ![alt text](./img/tsk6.png)
-4. (./img/Dashboard-1737317308358.json)
+4. [json](./img/Dashboard-1737317308358.json)
