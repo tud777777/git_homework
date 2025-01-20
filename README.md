@@ -27,4 +27,4 @@ Nagios - Pull
 8. 
 ![alt text](./img/tsk2.png)
 9. 
-![alt text](./img/tsk3.png)
+![alt text](./img/1234.png)
