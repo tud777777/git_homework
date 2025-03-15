@@ -2,7 +2,7 @@
 
 # Задание 1
 ![](/img/Screenshot%20from%202025-03-15%2022-29-01.png)\
-![](/img/Screenshot%20from%202025-03-15%2022-31-36.png)\
+![](/img/Screenshot%20from%202025-03-15%2022-31-36.png)
 # Задание 2
 ![](/img/Screenshot%20from%202025-03-15%2022-32-56.png)
 
