@@ -1,8 +1,9 @@
 # Домашнее задание к занятию «Kubernetes. Причины появления. Команда kubectl» - Баграш Фёдор
 
 # Задание 1
-![](/img/Screenshot%20from%202025-03-15%2022-29-01.png)\
-![](/img/Screenshot%20from%202025-03-15%2022-31-36.png)
+![](/img/Screenshot%20from%202025-03-20%2014-54-17.png)\
+![](/img/Screenshot%20from%202025-03-20%2014-54-41.png)\
+![](/img/Screenshot%20from%202025-03-20%2014-54-59.png)
 # Задание 2
-![](/img/Screenshot%20from%202025-03-15%2022-32-56.png)
+![](/img/Screenshot%20from%202025-03-20%2016-56-35.png)
 
