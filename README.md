@@ -4,5 +4,5 @@
 multi-busy.yaml\
 ![](/img/img1.png)
 # Задание 2
-syslog-reader\
+syslog-reader.yaml\
 ![](/img/img2.png)
