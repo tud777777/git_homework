@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: multi-busy-deployment
+  name: multitool-deployment
   labels:
-    app: multi-busy
+    app: multitool
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: multi-busy
+      app: multitool
   template:
     metadata:
       labels:
-        app: multi-busy
+        app: multitool
     spec:
       containers:
       - name: multitool
@@ -22,13 +22,7 @@ spec:
         volumeMounts:
         - name: vol
           mountPath: /output
-      - name: busybox
-        image: busybox:latest
-        command: ['sh', '-c', 'while true; do echo "$(date): BusyBox" >> /output/success.txt; sleep 5; done']
-        volumeMounts:
-        - name: vol
-          mountPath: /output
       volumes:
         - name: vol
           persistentVolumeClaim:
-            claimName: pvc
+            claimName: multitool-pvc
