@@ -6,7 +6,7 @@ multi-busy.yaml pv.yaml pvc.yaml\
 ![](/img/img3.png)\
 pv не удалился потому что установлена политика Retain\
 ![](/img/img4.png)\
-после удаления файл остался потому что hostPath — это прямое монтирование с хоста Kubernetes сознательно не удаляет такие данные\
+после удаления файл остался потому что hostPath — это прямое монтирование с хоста Kubernetes сознательно не удаляет такие данные
 # Задание 2
 multitool.yaml multitool-pvc.yaml\
 ![](/img/img6.png)\
