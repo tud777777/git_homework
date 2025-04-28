@@ -1,10 +1,9 @@
-# Домашнее задание к занятию «Установка Kubernetes» - Баграш Фёдор
+# Домашнее задание к занятию «Как работает сеть в K8s» - Баграш Фёдор
 
 # Задание 1
 
-Устанавливал с помощью kubespray:\
-inventoiry.ini\
 ![alt text](img/img1.png)\
-kubectl get nodes с control ноды\
-![alt text](img/img2.png)
+![alt text](img/img2.png)\
+backend.yaml cache.yaml frontend.yaml\
+frontend-np.yaml cache-np.yaml frontend-np.yaml
 
