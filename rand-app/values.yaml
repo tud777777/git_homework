@@ -1,9 +1,0 @@
-name: multitool
-replicas: 1
-cont_name: multitool
-cont_port: 80
-svc_name: multitool-svc
-svc_port_name: port1
-ns: app2
-image: wbitt/network-multitool
-image_ver: latest

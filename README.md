@@ -1,9 +1,11 @@
-# Домашнее задание к занятию «Как работает сеть в K8s» - Баграш Фёдор
+# Домашнее задание к занятию «Организация сети» - Баграш Фёдор
 
 # Задание 1
 
 ![alt text](img/img1.png)\
+public\
 ![alt text](img/img2.png)\
-backend.yaml cache.yaml frontend.yaml\
-frontend-np.yaml cache-np.yaml frontend-np.yaml
+private\
+![alt text](img/img3.png)\
+[terraform файлы](terraform/)
 

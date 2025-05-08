@@ -1,0 +1,12 @@
+#cloud-config
+users:
+  - name: user
+    groups: sudo
+    shell: /bin/bash
+    sudo: [ "ALL=(ALL) NOPASSWD:ALL" ]
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMKD9OjOpIXyieUs2a0NRdYuu3zq6hC/UtvH4HorSc8f user@WIN-5A0R0P8JCOL
+
+runcmd:
+  - echo 'user ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/user
+  - chmod 0440 /etc/sudoers.d/user
