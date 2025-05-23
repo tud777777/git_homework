@@ -1,0 +1,5 @@
+*.tfstate*
+*.tfvars
+*.backup
+authorized_key.json
+variables.tf
